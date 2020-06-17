@@ -11,7 +11,7 @@ O domínio será gerando quando o Flask_Ngrok for executado.
 #### Requisição
 A rota a ser chamada é **/otimiza/<n_entregadores>**
 
-**n_entregadores** se refere ao número de entregadores.
+**n_entregadores** se refere ao número de entregadores. Se não for passado, será utilizado por padrão o valor **2**
 
 É esperado no corpo da requisição uma *string* formatada em JSON, como a seguir:
 
