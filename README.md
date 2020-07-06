@@ -5,11 +5,12 @@ Esta API foi desenvolvida para efeitos didáticos.
 Não há mecanismos de otimização de rotas. Apenas alocação de entregas em locais próximos para entregadores disponíveis.
 
 ## Documentação
-O domínio será gerando quando o Flask_Ngrok for executado.
+~~O domínio será gerando quando o Flask_Ngrok for executado.~~
+A URL para acesso ao Web service é: http://webalunos.cacador.ifsc.edu.br:5000
 
 ### Rota /otimiza/<n_entregadores>
 #### Requisição
-A rota a ser chamada é **/otimiza/<n_entregadores>**
+A rota a ser chamada é **/otimiza/<n_entregadores>**, utilizando o método **POST**.
 
 **n_entregadores** se refere ao número de entregadores. Se não for passado, será utilizado por padrão o valor **2**
 
