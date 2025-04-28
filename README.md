@@ -6,7 +6,9 @@ Não há mecanismos de otimização de rotas. Apenas alocação de entregas em l
 
 ## Documentação
 ~~O domínio será gerando quando o Flask_Ngrok for executado.~~
-A URL para acesso ao Web service é: http://webalunos.cacador.ifsc.edu.br:5000
+
+~~A URL para acesso ao Web service é: http://webalunos.cacador.ifsc.edu.br:5000~~
+A URL será fornecida no dia da utilização.
 
 ### Rota /otimiza/<n_entregadores>
 #### Requisição
